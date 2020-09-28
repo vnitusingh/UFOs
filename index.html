@@ -24,7 +24,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-4">
-                    <h3>UFO Sightings: Fact or Fancy? <small>Ufologists Weigh In</small></h3>
+                    <h3>UFO Sightings: Fact or Fancy? <br><small>Ufologists Weigh In</small></h3>
                 </div>
                 <div class="col-md-8">
                     <p>
@@ -41,11 +41,24 @@
                         <p>Filter Search</p>
                         <ul class="list-group bg-dark">
                             <li class="list-group-item bg-dark">
-                                <label for="date">Enter Date</label>
+                                <label for="date" style="width: 30%;">Enter Date:</label>
                                 <input type="text" placeholder="1/10/2010" id="datetime" />
                             </li>
                             <li class="list-group-item bg-dark">
-                                <button id="filter-btn" type="button" class="btn btn-dark">Filter Table</button>
+                                <label for="city" style="width: 30%;">Enter a City:</label>
+                                <input type="text" id="city" />
+                            </li>
+                            <li class="list-group-item bg-dark">
+                                <label for="state" style="width: 30%;">Enter a State:</label>
+                                <input type="text" id="state" />
+                            </li>
+                            <li class="list-group-item bg-dark">
+                                <label for="country" style="width: 30%;">Enter a Country:</label>
+                                <input type="text" id="country" />
+                            </li>
+                            <li class="list-group-item bg-dark">
+                                <label for="shape" style="width: 30%;">Enter a Shape:</label>
+                                <input type="text" id="shape" />
                             </li>    
                         </ul>
                     </form>
