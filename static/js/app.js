@@ -3,8 +3,13 @@ const tableData = data;
 
 // get table references
 var tbody = d3.select("tbody");
+var h4 = d3.select("h4[id='resultCount']")
 
 function buildTable(data) {
+  // First clear the h4
+  h4.html("");
+  console.log(data.length);
+  h4.text("No of Rows Displayed: "+data.length);
   // First, clear out any existing data
   tbody.html("");
 
